@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:clickable="false"
+              android:descendantFocusability="blocksDescendants"
+              android:focusable="false"
+              android:focusableInTouchMode="false"
+              android:id="@+id/timer_list_item">
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:minHeight="?android:attr/listPreferredItemHeightLarge"
+        android:background="?android:selectableItemBackground"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/timer_item_pause_button"
+        android:tag="@string/timer_item_pause_tag"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="0.75"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:minHeight="?android:attr/listPreferredItemHeightLarge"
+        android:maxLines="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/timer_item_countdown_text"
+        android:text="@string/timer_item_countdown_text"
+        android:tag="@string/timer_item_countdown_tag"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:minHeight="?android:attr/listPreferredItemHeightLarge"
+        android:background="?android:selectableItemBackground"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/timer_item_stop_button"
+        android:tag="@string/timer_item_stop_tag"/>
+
+    <!--android:layout_marginLeft="24dp"
+    android:layout_marginStart="24dp"-->
+
+</LinearLayout>
+
+<!--
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:id="@+id/alarm_list_item">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:minHeight="?android:attr/listPreferredItemHeightLarge"
+        android:maxLines="1"
+        android:id="@+id/alarm_list_item_time"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:minHeight="?android:attr/listPreferredItemHeightLarge"
+        android:id="@+id/alarm_list_item_details"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:id="@+id/alarm_list_item_toggle"
+        android:minHeight="?android:attr/listPreferredItemHeightLarge"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:tag="alarm_switch"
+        android:contentDescription="alarm_switch"/>
+
+</LinearLayout>
+
+-->

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.polydus.alarmclockfree.StopwatchFragment"
+             android:orientation="vertical"
+             android:id="@+id/fragment_stopwatch">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopwatch_chronometer"
+        android:textSize="@dimen/chronometer_size"
+        android:text="@string/stopwatch_fragment_chronometer_clean"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer_button_1"
+            android:text="@string/stopwatch_fragment_button_1_clean"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:layout_weight="100"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer_button_2"
+            android:text="@string/stopwatch_fragment_button_2_clean"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:layout_weight="100"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:id="@+id/stopwatch_list_header">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/stopwatch_list_header_lap"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:text="@string/stopwatch_fragment_list_header_lap"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/stopwatch_list_header_laptime"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:text="@string/stopwatch_fragment_list_header_laptime"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:id="@+id/stopwatch_list_header_totaltime"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:text="@string/stopwatch_fragment_list_header_totaltime"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopwatch_lap_list"/>
+
+
+</LinearLayout>

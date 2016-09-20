@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:id="@+id/alarm_list_item">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:id="@+id/alarm_list_item_name"
+        android:textSize="@dimen/abc_text_size_display_1_material"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="false"
+        android:gravity="center"
+        android:descendantFocusability="blocksDescendants"
+        android:minHeight="?attr/listPreferredItemHeight"
+        android:focusable="false"
+        android:focusableInTouchMode="false">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:id="@+id/alarm_list_item_time"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.33"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/alarm_list_item_details"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:id="@+id/alarm_list_item_toggle"
+            android:clickable="true"
+            android:longClickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:tag="alarm_switch"
+            android:contentDescription="alarm_switch"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

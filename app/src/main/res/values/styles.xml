@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/blue_700</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/orange_400</item>
+
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="Body">
+        <item name="android:foreground">?android:windowContentOverlay</item>
+    </style>
+
+    <style name="Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/blue_500</item>
+        <item name="android:textColorPrimary">@color/primary_text_default_material_dark</item>
+        <item name="android:textSize">@dimen/abc_text_size_subtitle_material_toolbar</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ToolbarPopup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/background_material_light</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

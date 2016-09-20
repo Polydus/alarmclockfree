@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_active_days_entries">
+        <item>@string/weekdays_entries_monday</item>
+        <item>@string/weekdays_entries_tuesday</item>
+        <item>@string/weekdays_entries_wednesday</item>
+        <item>@string/weekdays_entries_thursday</item>
+        <item>@string/weekdays_entries_friday</item>
+        <item>@string/weekdays_entries_saturday</item>
+        <item>@string/weekdays_entries_sunday</item>
+    </string-array>
+    <string-array name="alarm_active_days_values">
+        <item>@string/weekdays_values_monday</item>
+        <item>@string/weekdays_values_tuesday</item>
+        <item>@string/weekdays_values_wednesday</item>
+        <item>@string/weekdays_values_thursday</item>
+        <item>@string/weekdays_values_friday</item>
+        <item>@string/weekdays_values_saturday</item>
+        <item>@string/weekdays_values_sunday</item>
+    </string-array>
+    <string-array name="alarm_ringtone_source_entries">
+        <item>@string/alarm_ringtone_source_entries_silent</item>
+        <item>@string/alarm_ringtone_source_entries_ringtone</item>
+        <item>@string/alarm_ringtone_source_entries_music</item>
+    </string-array>
+    <string-array name="alarm_ringtone_source_values">
+        <item>@string/alarm_ringtone_source_values_silent</item>
+        <item>@string/alarm_ringtone_source_values_ringtone</item>
+        <item>@string/alarm_ringtone_source_values_music</item>
+    </string-array>
+</resources>

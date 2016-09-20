@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- META -->
+
+    <string name="app_name">Alarm Clock Free</string>
+
+    <string name="toolbar_item_1">ALARM</string>
+    <string name="toolbar_item_2">STOPWATCH</string>
+    <string name="toolbar_item_3">TIMER</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- ALARM FRAGMENT -->
+
+    <string name="alarm_list_footer_text">Add new alarm</string>
+
+    <string name="weekdays_entries_monday">Monday</string>
+    <string name="weekdays_entries_tuesday">Tuesday</string>
+    <string name="weekdays_entries_wednesday">Wednesday</string>
+    <string name="weekdays_entries_thursday">Thursday</string>
+    <string name="weekdays_entries_friday">Friday</string>
+    <string name="weekdays_entries_saturday">Saturday</string>
+    <string name="weekdays_entries_sunday">Sunday</string>
+
+    <string name="weekdays_values_monday">monday</string>
+    <string name="weekdays_values_tuesday">tuesday</string>
+    <string name="weekdays_values_wednesday">wednesday</string>
+    <string name="weekdays_values_thursday">thursday</string>
+    <string name="weekdays_values_friday">friday</string>
+    <string name="weekdays_values_saturday">saturday</string>
+    <string name="weekdays_values_sunday">sunday</string>
+    
+    <string name="alarm_ringtone_source_entries_silent">Silent</string>
+    <string name="alarm_ringtone_source_entries_ringtone">Ringtone</string>
+    <string name="alarm_ringtone_source_entries_music">Music</string>
+
+    <string name="alarm_ringtone_source_values_silent">silent</string>
+    <string name="alarm_ringtone_source_values_ringtone">ringtone</string>
+    <string name="alarm_ringtone_source_values_music">music</string>
+
+    <!-- ALARM PREFERENCES-->
+
+    <string name="alarm_preference_name_key">_ALARM_NAME</string>
+    <string name="alarm_preference_time_key">_ALARM_TIME</string>
+    <string name="alarm_preference_active_days_key">_ALARM_ACTIVE_DAYS</string>
+    <string name="alarm_preference_source_key">_ALARM_SOURCE</string>
+    <string name="alarm_preference_ringtone_key">_ALARM_SOUND</string>
+    <string name="alarm_preference_custom_ringtone_key">_ALARM_CUSTOM_SOUND</string>
+    <string name="alarm_preference_vibration_key">_ALARM_VIBRATION</string>
+    <string name="alarm_preference_volume_key">_ALARM_VOLUME</string>
+    <string name="alarm_preference_snooze_enabled_key">_ALARM_SNOOZE_ENABLED</string>
+    <string name="alarm_preference_snooze_time_key">_ALARM_SNOOZE_TIME</string>
+
+    <string name="alarm_preference_name_title">Set name</string>
+    <string name="alarm_preference_time_title">Set time</string>
+    <string name="alarm_preference_active_days_title">Set active days</string>
+    <string name="alarm_preference_source_title">Set music source</string>
+    <string name="alarm_preference_ringtone_title">Set ringtone</string>
+    <string name="alarm_preference_custom_ringtone_title">Set music</string>
+    <string name="alarm_preference_vibration_title">Set vibration</string>
+    <string name="alarm_preference_volume_title">Set volume</string>
+    <string name="alarm_preference_snooze_enabled_title">Set snooze</string>
+    <string name="alarm_preference_snooze_time_title">Set snooze time</string>
+
+    <string name="alarm_preference_name_summary">Name summary</string>
+    <string name="alarm_preference_time_summary">08:00</string>
+    <string name="alarm_preference_active_days_summary">Mo Tu We Th Fr Sa Su</string>
+    <string name="alarm_preference_source_summary">Ringtone</string>
+    <string name="alarm_preference_ringtone_summary"> </string>
+    <string name="alarm_preference_custom_ringtone_summary"> </string>
+    <string name="alarm_preference_vibration_summary">Enabled</string>
+    <string name="alarm_preference_volume_summary">50%</string>
+    <string name="alarm_preference_snooze_enabled_summary">Enabled</string>
+    <string name="alarm_preference_snooze_time_summary">5 minutes</string>
+
+    <string name="preference_header_1">Date &amp; Time</string>
+    <string name="preference_header_2">Sound</string>
+    <string name="preference_header_3">Snooze</string>
+
+    <!-- STOPWATCH FRAGMENT-->
+
+    <string name="hello_stopwatch_fragment">Stopwatch Fragment</string>
+
+    <string name="stopwatch_fragment_chronometer_clean">00:00:00</string>
+
+    <string name="stopwatch_fragment_button_1_clean">Start</string>
+    <string name="stopwatch_fragment_button_2_clean">Clear</string>
+
+    <string name="stopwatch_fragment_button_1_running">Pause</string>
+    <string name="stopwatch_fragment_button_2_running">Lap</string>
+
+    <string name="stopwatch_fragment_button_1_stopped">Continue</string>
+    <string name="stopwatch_fragment_button_2_stopped">Clear</string>
+
+    <string name="stopwatch_fragment_list_header_lap">Lap</string>
+    <string name="stopwatch_fragment_list_header_laptime">Lap time</string>
+    <string name="stopwatch_fragment_list_header_totaltime">Total time</string>
+
+    <!-- TIMER FRAGMENT-->
+
+    <string name="timer_list_footer_text">Add new timer</string>
+    <string name="timer_item_countdown_text">00:00</string>
+    <string name="timer_item_countdown_tag">timer_item_countdown</string>
+    <string name="timer_item_pause_tag">timer_item_pause</string>
+    <string name="timer_item_stop_tag">timer_item_stop</string>
+
+    <!-- UNSORTED-->
+
+    <string name="wakelock_activity_snooze_button">snooze</string>
+    <string name="wakelock_activity_cancel_button">Cancel alarm</string>
+
+
+    <string name="title_activity_alarm_customize">AlarmCustomizeActivity</string>
+    <string name="title_activity_wake_lock">WakeLockActivity</string>
+
+
+</resources>

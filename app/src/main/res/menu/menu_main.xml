@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity"
+     >
+
+    <item android:id="@+id/action_alarm"
+        android:title="@string/toolbar_item_1"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+
+        />
+
+    <item android:id="@+id/action_stopwatch"
+          android:title="@string/toolbar_item_2"
+          app:showAsAction="always"
+          android:orderInCategory="2"
+        />
+
+    <item android:id="@+id/action_timer"
+          android:title="@string/toolbar_item_3"
+          app:showAsAction="always"
+          android:orderInCategory="3"
+        />
+
+
+    <!--
+
+
+    <item android:id="@+id/action_timer"
+          android:title="Timer"
+          app:showAsAction="always"
+          android:orderInCategory="3"
+        />
+
+    <item android:id="@+id/action_timer1"
+          android:title="Timer1"
+          app:showAsAction="always"
+          android:orderInCategory="4"
+        />
+
+    <item android:id="@+id/action_timer2"
+          android:title="Timer2"
+          app:showAsAction="always"
+          android:orderInCategory="5"
+        />
+
+        <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="4"
+          app:showAsAction="never"/>
+
+    -->
+</menu>
